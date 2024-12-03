@@ -1,0 +1,8 @@
+Para compilar los archivos se debe generar un jar
+1.- En la carpeta "source":
+***Tener los archivos a compilar
+***ejecutar: javac -d ../classes *.java
+2.- Entrar en la carpeta "classes"
+***Ejecutar: jar cf Application.jar Application.class Aggregator.class networking/WebClient.class Demo.class SerializationUtils.class
+3.- Ejecutar el cliente
+***Ejecutar: java -cp Application.jar Application
