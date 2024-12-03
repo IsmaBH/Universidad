@@ -1,0 +1,8 @@
+#CRUD DE USUARIOS METODO GET VER LA INFORMACION DE USUARIOS DE UN ROUTER
+curl -X GET http://localhost:5000/routers/TOR-1/usuarios/
+#CRUD DE USUARIOS METODO POST AGREGAR UN USUARIO
+curl -X POST http://localhost:5000/routers/TOR-1/usuarios/tecnico/6/cisco/
+#CRUD DE USUARIOS METODO DELETE BORRAR UN USUARIO
+curl -X DELETE http://localhost:5000/routers/TOR-1/usuarios/tecnico/
+#CRUD DE USUARIOS METODO PUT MODIFICAR UN USUARIO
+curl -X PUT http://localhost:5000/routers/TOR-1/usuarios/tecnico/user_lvl/10/

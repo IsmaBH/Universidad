@@ -1,0 +1,4 @@
+b'terminal length 0 \r\nR1#show running-config | include hostname\r\nhostname R1\r\nR1#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.3 255.255.255.255\r\nR1#'
+b'terminal length 0 \r\nR1#show running-config | include hostname\r\nhostname R1\r\nR1#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.3 255.255.255.255\r\nR1#'

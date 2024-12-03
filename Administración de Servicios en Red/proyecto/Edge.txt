@@ -1,0 +1,4 @@
+b'terminal length 0 \r\nEdge#show running-config | include hostname\r\nhostname Edge\r\nEdge#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.5 255.255.255.255\r\nEdge#'
+b'terminal length 0 \r\nEdge#show running-config | include hostname\r\nhostname Edge\r\nEdge#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.5 255.255.255.255\r\nEdge#'

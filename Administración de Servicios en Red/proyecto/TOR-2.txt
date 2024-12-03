@@ -1,0 +1,4 @@
+b'terminal length 0 \r\nTOR-2#show running-config | include hostname\r\nhostname TOR-2\r\nTOR-2#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.2 255.255.255.255\r\nTOR-2#'
+b'terminal length 0 \r\nTOR-2#show running-config | include hostname\r\nhostname TOR-2\r\nTOR-2#'
+b'show running-config | include 255.255.255.255\r\n ip address 192.168.1.2 255.255.255.255\r\nTOR-2#'

@@ -1,0 +1,2 @@
+show running-config | include hostname
+show running-config | include 255.255.255.255

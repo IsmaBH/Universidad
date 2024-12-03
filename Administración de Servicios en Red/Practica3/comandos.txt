@@ -1,0 +1,21 @@
+configure terminal
+ip route 10.0.5.0 255.255.255.0 10.0.2.2
+router rip
+version 2
+passive-interface f 0/0
+network 10.0.2.4
+network 10.0.1.0
+no auto-summary
+redistribute static
+redistribute ospf 1
+default-metric 1
+exit
+interface loopback0
+ip address 192.169.1.2 255.255.255.255
+no shutdown
+exit
+router ospf 1
+network 10.0.2.8 0.0.0.3 area 0
+redistribute static metric 200 subnets
+redistribute rip metric 200 subnets
+end
