@@ -1,0 +1,48 @@
+El proyecto maven adjunto contiene un servidor web mínimo funcional el cual contiene el siguiente árbol de directorios:
+
+├── LICENSE
+
+├── pom.xml
+
+└── src
+
+    ├── main
+
+    │   ├── java
+
+    │   │   ├── Application.java
+
+    │   │   ├── model
+
+    │   │   │   └── frontend
+
+    │   │   │       ├── FrontendSearchRequest.java
+
+    │   │   │       └── FrontendSearchResponse.java
+
+    │   │   └── networking
+
+    │   │       ├── WebClient.java
+
+    │   │       └── WebServer.java
+
+    │   └── resources
+
+    │       └── ui_assets
+
+    │           ├── index.html
+
+    │           ├── javascript.js
+
+    │           └── style.css
+
+    └── test
+
+        └── java
+Para crear el archivo jar sólo debe ejecutar en la raiz:
+
+mvn package
+
+y para ejecutar el archivo jar:
+
+java -jar target/front.end-1.0-SNAPSHOT-jar-with-dependencies.jar
